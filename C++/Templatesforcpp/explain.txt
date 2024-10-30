@@ -1,0 +1,3 @@
+Most Important topic in C++
+template are use for generic programming
+generalization is based on data type 

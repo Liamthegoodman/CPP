@@ -1,0 +1,82 @@
+
+----Data Structure----
+int A[10];    This will create memory inside stack 
+int *A = new int[10];  This will create memory inside heap
+When you have alot of data you can have alot of analytical work
+
+Once created array size cannot be changed. 
+Array are defultp in C++ but the problem is their sized is fixed.
+connection of data stracture is called STL{standard template library}
+
+
+
+___Container____Template class
+
+1.vector  
+-- array only(this not fixed size araray this can be grow and reduce by itself)
+-- function avaliable in vector
+        -- push-back() --for inserting
+            pop-back() --for deleting 
+            insert()
+            remove ()
+            size()
+            empty()
+
+2.list  
+--linklist 
+    linklist
+--can expend and can reduce this means the size is variable.
+double linklist can be forward and backward.
+circular linklist- the last node is connected with the first linklist.
+        --  push-front()
+            pop-front()
+            push-back() --for inserting
+            pop-back() --for deleting 
+            insert()
+            remove ()
+            size()
+            empty()
+            front()
+            back()
+
+3.forward-list
+--single linklist only can forward.
+    --same methods are avaliable as the list.
+4.deque
+--same as vector
+        --push-front()
+            pop-front()
+            push-back() --for inserting
+            pop-back() --for deleting 
+            insert()
+            remove ()
+            size()
+            empty()
+            front()
+            back()
+
+5.priority-queus
+--means that always the largest element form the queus will be deleted
+--for heap data structure it is for max heap data structure
+        --  push()
+            pop()
+            empty()
+            size()
+
+6.stack
+--work on the descipline last in first out
+       --  push()
+            pop()
+            empty()
+            size()
+7.Set 
+--this is the collection of element which will contain only the unique element
+--duplicate are not allowed.
+8.multiset 
+--same as set and this allowed deplicate
+
+9.map
+--can store <key:value> pair
+
+10.multi-map
+-same as map but duplicate keys are allowed but the value should be different.
